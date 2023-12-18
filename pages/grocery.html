@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserratt' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(35, 38, 66);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  background-color: rgb(165, 86, 165);
+}
+#q{
+    background-color:rgb(35, 38, 66);height: 260px;
+    color: white;
+    text-align: center;
+    font-family: montserrat;font-size: 50px;
+    font-weight: 900;
+    margin-top: 0%;
+    margin-bottom: -4%;
+}
+#a{
+    font-family: 'montserrat';font-size: 50px;
+    font-weight: 800;
+    margin: auto;
+    background-color: rgb(35, 38, 66);height: 60px;width: 360px;
+    text-align: center;
+    color: #fcad11;
+}
+#b{
+    border: solid black 1px;
+    background-color:#e5e5e5;height: 50px;width: 50px;
+    color:rgb(35, 38, 66);
+    font-family: montserrat;
+    font-weight:300;
+    font-size: 15px;
+    text-align: center;
+}
+#c{
+    font-family: "Sofia", sans-serif;font-size: 30px;color: rgb(35, 38, 66);
+}
+#d{
+    font-family: "Sofia", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color:white ;
+}
+td:hover{
+    background-color: violet;
+    color: white;
+}
+p:hover{
+          background-color: violet;
+          color: white;
+}
+#h{
+    background-color: rgb(10, 14, 43);height: 60px; color: white;font-family: montserrat;font-weight: 600;font-size: 15px;
+    border: #e5e5e5 1px;
+    margin-top: 0%;
+    text-align: center justify;
+}
+</style>
+</head>
+<body bgcolor="Fcad11">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+        <h1 id="q"><br>Welcome To <br/>Online SuperMart</h1>
+    <br>
+    <br>
+    <center>
+        <div>
+        <p id="h">
+            <br>
+            <a style="text-decoration: none; color: inherit;" href="./home.html"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HOME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a>
+            <a style="text-decoration: none; color: inherit;" href="./fruits.html">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FRUITS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a>
+            <a style="text-decoration: none; color: inherit;" href="./grocery.html">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GROCERY &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a>
+            <a style="text-decoration: none; color: inherit;" href="./about.html">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ABOUT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a>
+            <a style="text-decoration: none; color: inherit;" href="./contact.html">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CONTACT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a>
+        </p>
+        </div>
+    </center>
+    <br>
+    <br>
+    <br>
+        <h1 id="a">FAST FOOD</h1>
+        <br>
+        <br>
+        <center>
+        <table>
+            <tr id="b">
+                <td colspan="10"><a style="text-decoration: none; color: inherit;" href="#BBQ">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BBQ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></td>
+                <td colspan="10"><a style="text-decoration: none; color: inherit;" href="#Burgers">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Burgers &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></td>
+                <td colspan="10"><a style="text-decoration: none; color: inherit;" href="#Broasts">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Broasts &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></td>
+            </tr>
+            <tr id="b">
+                <td colspan="10"><a style="text-decoration: none; color: inherit;" href="#Rolls">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rolls &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+                <td colspan="10"><a style="text-decoration: none; color: inherit;" href="#Sandwiches">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sandwiches &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+                <td colspan="10"><a style="text-decoration: none; color: inherit;" href="#Others">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Others &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+            </tr>
+        </table>
+        </center>
+        <br>
+        <br>
+        <div id="c">
+            <h1 id="BBQ">BBQ:</h1>
+        </div>
+            <ul id="d">
+                <li>Chicken Tikka</li>
+                <li>Malai Boti</li>
+                <li>Bihari Tikka</li>
+                <li>Beef Boti</li>
+            </ul>
+            <br>
+            <div id="c">
+                <h1 id="Burgers">Burgers:</h1>
+            </div>    
+        <ul id="d">
+            <li>Zinger burger</li>
+            <li>Zinger Cheese burger</li>
+            <li>Chicken burger</li>
+            <li>Beef burger</li>
+        </ul>
+        <br>
+        <div id="c">
+            <h1 id="Broasts">Broasts:</h1>
+        </div>
+        <ul id="d">
+            <li>Leg Broast</li>
+            <li>Chest Broasts</li>
+            <li>Spicy Broast</li>
+            <li>Garlic Broast</li>
+        </ul>
+        <br>
+        <div id="c">
+            <h1 id="Rolls">Rolls:</h1>
+        </div>    
+        <ul id="d">
+            <li>Chicken Boti Roll</li>
+            <li>Chicken Boti Mayo Roll</li>
+            <li>Beef Boti roll</li>
+            <li>Beef Boti Mayo roll</li>
+        </ul>
+        <br>
+        <div id="c">
+            <h1 id="Sandwiches">Sandwiches:</h1>
+        </div>    
+        <ul id="d">
+            <li>Chicken Sandwich</li>
+            <li>Chicken Club Sandwich</li>
+            <li>Crispy Chicken Sandwich</li>
+        </ul>
+        <br>
+        <div id="c">
+            <h1 id="Others">Others:</h1>
+        </div>
+        <ul id="d">
+            <li>Coldrinks</li>
+            <li>Cheese Slice</li>
+            <li>Paratha</li>
+            <li>Chapati</li>
+        </ul>
+</body>
+</html>
