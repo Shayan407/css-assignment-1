@@ -54,7 +54,7 @@
           background-color: violet;
           color: white;
       }
-      p:hover{
+      .wrapper p:hover{
           background-color: violet;
           color: white;
       }
